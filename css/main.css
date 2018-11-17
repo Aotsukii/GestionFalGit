@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Aller";
+    src: url('/font/aller_rg.ttf');
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: "Aller";
+}
+h1 {
+    font-size: 50px;
+    text-align:center;
+    /*  JAUNE  color: rgb(217, 202, 46); */
+    color: #c01e9b;
+    font-weight:bold;
+    text-shadow:2px 2px #000;
+}
+h2 {
+    font-size:40px;
+    text-align:center;
+    color: #c01e9b;
+    font-weight:bold;
+}
+p{
+    margin-left:23%;
+    margin-right:23%;
+    text-align:justify;
+}
+.form{
+    width: 40%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    margin-left:30%;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.form-check-inline, .form-group{
+    margin-left:30%;
+}
+#filiere{
+    width:57%;
+}
+#datebapt{
+    margin-left:7%;
+}
+.button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+.button:hover{
+    background:#8BC3A3;
+    color:white;
+}
+.form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#fff;
+    background: #c01e9b;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+.form-btn:hover{
+    background: #2f9d79;
+    color: white;
+    border:none;
+}
+.form-btn:active{
+    opacity: 0.9;
+}
+.btn-index:hover{
+    background: #a61c84;
+    color: white;
+    border:none;
+}
