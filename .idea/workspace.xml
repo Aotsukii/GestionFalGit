@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3b62dc7-2094-4ddd-9221-46637cf8b4d8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/GestionFal.mcd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/GestionFal.mcd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_croix.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_croix.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_fal.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_fal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_impetrant.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_impetrant.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traitment-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/traitment-register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,8 +70,8 @@
       <file leaf-file-name="traitment-register.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/traitment-register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="450">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -302,7 +296,7 @@
       <workItem from="1542359788968" duration="1217000" />
       <workItem from="1542453461703" duration="938000" />
       <workItem from="1542454418791" duration="1460000" />
-      <workItem from="1542456080824" duration="2029000" />
+      <workItem from="1542456080824" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="pouet test">
       <created>1542454157994</created>
@@ -388,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542456775922</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ppe gestion fal">
+      <created>1542459537808</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542459537808</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14228000" />
+    <option name="totallyTimeSpent" value="14347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -555,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/traitment-register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="450">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
