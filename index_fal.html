@@ -1,3 +1,8 @@
+<?php
+	session_start();
+	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ROLE_USER']=="professeur"))
+	{
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,19 +21,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Accueil<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./index.html">Profil<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Liste des membres</a>
+                <a class="nav-link" href="liste_membres.html">Liste des membres</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Chants</a>
+                <a class="nav-link" href="liste_chants.html">Chants</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Codes</a>
+                <a class="nav-link" href="codexMtp.html">Code</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Events à venir</a>
+                <a class="nav-link" href="events.html">Events à venir</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -44,3 +49,6 @@
 </nav>
 </body>
 </html>
+<?php
+	} else { header('location:index.html?error=Vous n\'avez pas accès à cette page');}
+?>

@@ -106,3 +106,8 @@ p{
     color: white;
     border:none;
 }
+
+.embed{
+    height:1024px;
+    width:100%;
+}
