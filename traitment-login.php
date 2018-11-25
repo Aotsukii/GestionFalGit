@@ -2,7 +2,7 @@
 	session_start();
 	try
 	{
-	    $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'root');
+	    $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
 	}
 	catch (Exception $e)
 	{
