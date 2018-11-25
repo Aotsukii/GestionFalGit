@@ -1,3 +1,16 @@
+<?php
+	session_start();
+	if(isset($_SESSION['ID_USER']))
+	{
+	    if ($_SESSION['ROLE_USER']=="fal"){
+	        header('location:index_fal.html);
+	        } elseif ($_SESSION['ROLE_USER']=="croix"){
+	        header('location:index_fal.html);
+	        } elseif ($_SESSION['ROLE_USER']=="impetrant"){
+	        header('location:index_impetrant.html);}
+	} else {
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -19,3 +32,5 @@
 <button class="form-btn btn-index semibold"><a href="./login.html">Connexion</a></button>
 </body>
 </html>
+
+<?php } ?>

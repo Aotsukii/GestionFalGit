@@ -1,3 +1,8 @@
+<?php
+	session_start();
+	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ROLE_USER']=="impetrant"))
+	{
+	?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="./index_impetrant.html">Profil<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./index_impetrant.html">Mon Profil<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="liste_membres.html">Liste des membres</a>
@@ -41,3 +46,6 @@
 </nav>
 </body>
 </html>
+<?php
+	} else { header('location:index.html?error=Vous n\'avez pas accès à cette page');}
+?>

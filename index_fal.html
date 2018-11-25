@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ROLE_USER']=="professeur"))
+	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ROLE_USER']=="fal"))
 	{
 ?>
 <!DOCTYPE html>
@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Profil<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./index.html">Mon Profil<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="liste_membres.html">Liste des membres</a>
