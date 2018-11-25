@@ -11,7 +11,7 @@ $mail=htmlspecialchars($_POST['mail']);
 $filiere=htmlspecialchars($_POST['filiere']);
 $mailAuth=htmlspecialchars($_POST['mailAuth']);
 $tel=htmlspecialchars($_POST['tel']);
-$role=htmlspecialchars($_POST['checkrank']);
+$role=htmlspecialchars($_POST['radioRank']);
 try
 {
     $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
