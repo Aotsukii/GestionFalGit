@@ -1,11 +1,9 @@
 <?php
 session_start();
-try
-{
-    $connect = new PDO('mysql:host=localhost;dbname=PPE;charset=utf8', 'root', 'password');
-}
-catch (Exception $e)
-{
+try {
+    $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
+    $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }
 $login= htmlspecialchars($_POST['login']);
