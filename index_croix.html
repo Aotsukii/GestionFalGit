@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ROLE_USER']=="croix"))
+	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ID_ROLE']=="1"))
 	{
 	?>
 <!DOCTYPE html>
@@ -30,6 +30,12 @@
                 <a class="nav-link" href="listeImpetrants_Croix.html">Liste des impétrants</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="liste_chants.html">Chants</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="codexMtp.html">Code</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="events.html">Events à venir</a>
             </li>
         </ul>
@@ -39,7 +45,7 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="./register.html">Déconnexion</a>
+                    <a class="nav-link" href="./disconnect.php">Déconnexion</a>
                 </li>
             </ul>
         </form>

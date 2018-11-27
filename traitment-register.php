@@ -1,7 +1,6 @@
 <?php
-/* if (isset($_POST['submit'])){
-} */
-if($_POST) {
+
+if(isset($_POST['submit'])){
     $nom = htmlspecialchars($_POST['name']);
     $prenom = htmlspecialchars($_POST['surname']);
     $nick = htmlspecialchars($_POST['nickname']);
@@ -19,17 +18,16 @@ if($_POST) {
     } catch (Exception $e) {
         die('Erreur : ' . $e->getMessage());
     }
+    $insert = $connect->prepare("INSERT INTO USER (NOM_USER, PRENOM_USER, SURNOM_USER, PASSWORD, DATEBAPT_USER, TEL_USER, MAIL_USER, MAILAUTH_USER) VALUES (?,?,?,?,?,?,?,?)");
+    $insert->execute(array($nom, $prenom, $nick, $pass, $date, $tel, $mail, $mailAuth));
+    $id=$connect->lastInsertId();
+    $insert->closeCursor();
 
-    $insert = $connect->prepare("INSERT INTO USER (ID_USER, NOM_USER, PRENOM_USER, SURNOM_USER, PASSWORD, DATEBAPT_USER, TEL_USER, MAIL_USER, MAILAUTH_USER) VALUES (?,?,?,?,?,?,?,?,?)");
-    $insert->execute(array(null, $nom, $prenom, $nick, $pass, $date, $tel, $mail, $mailAuth));
-
-    $insert2 = $connect->prepare("INSERT INTO MEMBRE (ID_USER, ID_FILIERE , ID_ROLE) VALUES (?,?,?)");
-    if ($insert2->execute(array($connect->lastInsertId(), $filiere, $role))){
-        echo('Bienenregistré');
-    }
-
+    $insert2=$connect->prepare("UPDATE membre SET ID_FILIERE=?, ID_ROLE=? WHERE ID_USER=?");
+    $insert2->execute(array($filiere,$role,$id));
     //$insert2 = $connect-> prepare("INSERT INTO membre(ID_FILIERE,ID_ROLE)");
     /*echo $connect->lastInsertId();*/
-    /*header('location:index.html')*/
+    header('location:index.html');
+    exit();
 }
 ?>

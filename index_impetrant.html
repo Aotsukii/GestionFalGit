@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ROLE_USER']=="impetrant"))
+	if((isset($_SESSION['ID_USER'])) AND ($_SESSION['ID_ROLE']=="3"))
 	{
 	?>
 <!DOCTYPE html>
@@ -38,7 +38,7 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="./register.html">Déconnexion</a>
+                    <a class="nav-link" href="./disconnect.php">Déconnexion</a>
                 </li>
             </ul>
         </form>
