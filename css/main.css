@@ -1,3 +1,4 @@
+/* TODO REMETTRE LES FONT ET LES METTRE EN LOCAL AUSSI */
 *{
     padding:0;
     margin:0;
@@ -13,14 +14,14 @@ h1 {
     font-size: 50px;
     text-align:center;
     /*  JAUNE  color: rgb(217, 202, 46); */
-    color: #c01e9b;
+    color: #7e1a60;
     font-weight:bold;
-    text-shadow:2px 2px #000;
+    text-shadow:1px 1px #000;
 }
 h2 {
     font-size:40px;
     text-align:center;
-    color: #c01e9b;
+    color: #7e1a60;
     font-weight:bold;
 }
 p{
@@ -52,7 +53,6 @@ p{
 }
 .button{
     padding:8px 12px;
-    background:#0A5175;
     display: block;
     width:120px;
     margin:10px 0 0px 0;
@@ -76,7 +76,7 @@ p{
     height: auto;
     padding:15px;
     color:#fff;
-    background: #c01e9b;
+    background: #7e1a60;
     border:none;
     border-radius:3px;
     outline: none;
@@ -92,6 +92,12 @@ p{
     background: #2f9d79;
     color: white;
     border:none;
+
+}
+
+.form-btn > a:hover {
+    color:black;
+    text-decoration: none;
 }
 .form-btn:active{
     opacity: 0.9;
