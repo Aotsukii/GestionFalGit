@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 27, 2018 at 10:36 PM
+-- Generation Time: Nov 28, 2018 at 10:34 AM
 -- Server version: 5.6.34-log
 -- PHP Version: 7.2.1
 
@@ -85,7 +85,11 @@ CREATE TABLE `membre` (
 --
 
 INSERT INTO `membre` (`ID_USER`, `NOM_USER`, `PRENOM_USER`, `SURNOM_USER`, `PASSWORD`, `DATEBAPT_USER`, `TEL_USER`, `MAIL_USER`, `MAILAUTH_USER`, `ID_FILIERE`, `ID_ROLE`) VALUES
-(1, 'GAZEL', 'Elie', 'Geekeloro', '3df177c2ae459f462ec6338dac917a1728cba040', '2017-05-20', '0676894068', 'elie@gazel.net', 1, 1, 1);
+(1, 'GAZEL', 'Elie', 'Geekeloro', '3df177c2ae459f462ec6338dac917a1728cba040', '2017-05-20', '0676894068', 'elie@gazel.net', 1, 1, 1),
+(2, 'ROUBY', 'Damien', 'GSSM', 'f23f6d6e2b8f6a684a164266b8c891e344b62116', '2017-05-30', '0123456789', 'damien.rouby@test.test', 0, 1, 2),
+(3, 'TEISSIER', 'ORIANE', 'TORNADO', 'c01e8fbff72ac35cbfd9d4640bc1628c504cbc1a', '2014-01-01', '0123456897', 'TEISSIER.ORIANE@TEST.TEST', 1, 2, 1),
+(4, 'ELHALW', 'Mohammed', 'Novice', '16ca44702a9bce35349783e2780b3564876b28c6', '0000-00-00', '3216549870', 'novice@novice.novice', 1, 6, 3),
+(5, 'qsdqsd', 'qsdqsdqs', '', '0dc9946c1158e7a9bdca0c59c98e89d559ffba8d', '0000-00-00', '', 'dffdggfd@hjkjjkh', 0, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -103,9 +107,9 @@ CREATE TABLE `role` (
 --
 
 INSERT INTO `role` (`ID_ROLE`, `LIB_ROLE`) VALUES
-(1, 'croix'),
-(2, 'fal'),
-(3, 'impetrant');
+(1, 'Croix'),
+(2, 'Faluchard'),
+(3, 'Impetrant');
 
 -- --------------------------------------------------------
 
@@ -130,7 +134,11 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`ID_USER`, `NOM_USER`, `PRENOM_USER`, `SURNOM_USER`, `PASSWORD`, `DATEBAPT_USER`, `TEL_USER`, `MAIL_USER`, `MAILAUTH_USER`) VALUES
-(1, 'GAZEL', 'Elie', 'Geekeloro', '3df177c2ae459f462ec6338dac917a1728cba040', '2017-05-20', '0676894068', 'elie@gazel.net', 1);
+(1, 'GAZEL', 'Elie', 'Geekeloro', '3df177c2ae459f462ec6338dac917a1728cba040', '2017-05-20', '0676894068', 'elie@gazel.net', 1),
+(2, 'ROUBY', 'Damien', 'GSSM', 'f23f6d6e2b8f6a684a164266b8c891e344b62116', '2017-05-30', '0123456789', 'damien.rouby@test.test', 0),
+(3, 'TEISSIER', 'ORIANE', 'TORNADO', 'c01e8fbff72ac35cbfd9d4640bc1628c504cbc1a', '2014-01-01', '0123456897', 'TEISSIER.ORIANE@TEST.TEST', 1),
+(4, 'ELHALW', 'Mohammed', 'Novice', '16ca44702a9bce35349783e2780b3564876b28c6', '0000-00-00', '3216549870', 'novice@novice.novice', 1),
+(5, 'qsdqsd', 'qsdqsdqs', '', '0dc9946c1158e7a9bdca0c59c98e89d559ffba8d', '0000-00-00', '', 'dffdggfd@hjkjjkh', 0);
 
 --
 -- Triggers `user`
@@ -217,7 +225,7 @@ ALTER TABLE `role`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `ID_USER` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ID_USER` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `user_post`
 --
