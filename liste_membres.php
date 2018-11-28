@@ -1,8 +1,15 @@
 <?php
-	session_start();
-	if(isset($_SESSION['ID_USER']))
-	{
-	?>
+session_start();
+try
+{
+    $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
+}
+catch (Exception $e)
+{
+    die('Erreur : ' . $e->getMessage());
+}
+if(isset($_SESSION['ID_USER']))
+{?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +18,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/datatable.css">
 </head>
 <body>
 
@@ -31,11 +39,38 @@
         </form>
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="./register.html">Déconnexion</a>
+                <a class="nav-link" href="./disconnect.php">Déconnexion</a>
             </li>
         </ul>
     </div>
 </nav>
+<table id="example" class="table table-striped table-bordered" style="width:100%; text-align:center;">
+    <thead>
+    <tr>
+        <th class="sorting">Surnom</th>
+        <th>Baptême</th>
+        <th>Filière</th>
+        <th>Ajouter</th>
+    </tr>
+    </thead>
+    <tbody>
+<?php
+    $stmt=$connect->prepare("SELECT * FROM membre");
+    if ($stmt->execute()){
+        $result=$stmt->fetchAll();
+        foreach($result AS $membre){
+//            echo("Surnom : ".$membre['SURNOM_USER']."__________ Dâte de baptême : ".$membre['DATEBAPT_USER']."________Filière : ".$membre['ID_FILIERE']."<br>");
+?>
+        <?php echo("<tr><td>".$membre['SURNOM_USER']."</td>"); ?>
+        <?php echo("<td>".$membre['DATEBAPT_USER']."</td>"); ?>
+        <?php echo("<td>".$membre['ID_FILIERE']."</td>");
+        echo("<td><button href='#'>Ajouter</button></tr>");
+    }
+    }
+    ?>
+    </tbody>
+    </tfoot>
+</table>
 </body>
 </html>
 <?php

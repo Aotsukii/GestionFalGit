@@ -20,7 +20,7 @@ if($recovery_user->rowcount() == 1) {
     $_SESSION['SURNOM_USER'] = $info_user['SURNOM_USER'];
     $_SESSION['PASSWORD'] = $info_user['PASSWORD'];
     $_SESSION['ID_ROLE'] = $info_user['ID_ROLE'];
-}
+
     if ($_SESSION['ID_ROLE'] == "3") {
         header('location:index_impetrant.html');
     } elseif ($_SESSION['ID_ROLE'] == "2") {
@@ -28,5 +28,7 @@ if($recovery_user->rowcount() == 1) {
     } elseif ($_SESSION['ID_ROLE'] == "1") {
         header('location:index_croix.html');
     }
-
+} else {
+    header('location:index.html');
+}
 ?>

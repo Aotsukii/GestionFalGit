@@ -1,4 +1,7 @@
-/* TODO REMETTRE LES FONT ET LES METTRE EN LOCAL AUSSI */
+font-face{
+    font-family:Aller;
+    src: url("../rsc/Aller_Rg.ttf");
+}
 *{
     padding:0;
     margin:0;
