@@ -71,6 +71,7 @@ if(isset($_SESSION['ID_USER']))
     </tbody>
     </tfoot>
 </table>
+<!--
 </body>
 </html>
 <?php
