@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3b62dc7-2094-4ddd-9221-46637cf8b4d8" name="Default" comment="pouet test">
+    <list default="true" id="c3b62dc7-2094-4ddd-9221-46637cf8b4d8" name="Default" comment="29/11/2018 09h50 -&gt; Changement pass pdo + php checks updated">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/XxMagicDjoxX.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/Trigger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/gestionfal.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codexMtp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/datatable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/disconnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listeImpetrants_Croix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liste_chants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/liste_membres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsc/Aller_Rg.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsc/code_Mtp_2014.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_wall.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/GestionFal.mcd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/GestionFal.mcd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_croix.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_croix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_fal.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_fal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_impetrant.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_impetrant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traitment-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/traitment-login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traitment-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/traitment-register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,15 +39,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GestionFal@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GestionFal@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GestionFal@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gestionfal: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="GestionFal@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gestionfal: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-            </state>
-          </provider>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5ed7005-d047-4275-96d2-147e168d0ff9/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -27,14 +88,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sel1</find>
+      <find>form-btn</find>
+      <find>sort</find>
+      <find>sorti</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -44,14 +108,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index_croix.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/user_wall.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/search.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6dc04fef-e08b-462e-8c55-77b82234774f/console_1.sql" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/codexMtp.html" />
         <option value="$PROJECT_DIR$/index_impetrant.html" />
         <option value="$PROJECT_DIR$/index_fal.html" />
-        <option value="$PROJECT_DIR$/login.html" />
-        <option value="$PROJECT_DIR$/traitment-login.php" />
+        <option value="$PROJECT_DIR$/liste_chants.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/disconnect.php" />
+        <option value="$PROJECT_DIR$/liste_membres.html" />
+        <option value="$PROJECT_DIR$/css/datatable.css" />
+        <option value="$PROJECT_DIR$/index_croix.html" />
+        <option value="$PROJECT_DIR$/listeImpetrants_Croix.html" />
+        <option value="$PROJECT_DIR$/traitment-login.php" />
         <option value="$PROJECT_DIR$/traitment-register.php" />
+        <option value="$PROJECT_DIR$/listeImpetrants_Croix.php" />
+        <option value="$PROJECT_DIR$/liste_membres.php" />
+        <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -64,6 +141,12 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="" />
+      <path value="$PROJECT_DIR$/../../conf/php7.2.1" />
+    </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -93,11 +176,23 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../conf/php7.2.1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MAMP\htdocs\GestionFalGit\rsc" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,10 +221,15 @@
       <workItem from="1542359788968" duration="1217000" />
       <workItem from="1542453461703" duration="938000" />
       <workItem from="1542454418791" duration="1460000" />
-      <workItem from="1542456080824" duration="79000" />
-      <workItem from="1542456263699" duration="59000" />
-      <workItem from="1542882652727" duration="323000" />
-      <workItem from="1542892127329" duration="615000" />
+      <workItem from="1542456080824" duration="2148000" />
+      <workItem from="1542545644106" duration="1231000" />
+      <workItem from="1542898111787" duration="618000" />
+      <workItem from="1543130773872" duration="7620000" />
+      <workItem from="1543151970919" duration="10986000" />
+      <workItem from="1543254670561" duration="639000" />
+      <workItem from="1543261587050" duration="626000" />
+      <workItem from="1543348944088" duration="9445000" />
+      <workItem from="1543395152031" duration="5266000" />
     </task>
     <task id="LOCAL-00001" summary="pouet test">
       <created>1542454157994</created>
@@ -153,41 +253,262 @@
       <updated>1542456117087</updated>
     </task>
     <task id="LOCAL-00004" summary="pouet test">
-      <created>1542456297319</created>
+      <created>1542456176136</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1542456297319</updated>
+      <updated>1542456176136</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pouet test">
+      <created>1542456215948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456215948</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pouet test">
+      <created>1542456526780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456526780</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pouet test">
+      <created>1542456583257</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456583257</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ppe gestion fal">
+      <created>1542456657540</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456657540</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ppe gestion fal">
+      <created>1542456688491</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456688491</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ppe gestion fal">
+      <created>1542456729134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456729134</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ppe gestion fal">
+      <created>1542456754552</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456754552</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ppe gestion fal">
+      <created>1542456775922</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542456775922</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ppe gestion fal">
+      <created>1542459537808</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542459537808</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ppe gestion fal">
+      <created>1542545670037</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542545670038</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ppe gestion fal">
+      <created>1543132517417</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543132517417</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ppe gestion fal">
+      <created>1543132577066</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1543132577066</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Ppe gestion fal">
+      <created>1543132732652</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1543132732652</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Ppe gestion fal">
+      <created>1543133151488</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1543133151488</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Ppe gestion fal">
+      <created>1543134106635</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1543134106635</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Ppe gestion fal">
+      <created>1543134846540</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1543134846540</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Ppe gestion fal">
+      <created>1543135210804</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1543135210804</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Ppe gestion fal">
+      <created>1543137051240</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1543137051240</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Ppe gestion fal">
+      <created>1543153992167</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1543153992167</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Ppe gestion fal">
+      <created>1543159474751</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1543159474751</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Ppe gestion fal">
+      <created>1543160107638</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1543160107638</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Ppe gestion fal">
+      <created>1543350613425</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1543350613425</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Ppe gestion fal">
+      <created>1543350670958</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1543350670958</updated>
+    </task>
+    <task id="LOCAL-00028" summary="sql db avec trigger fonctionnel">
+      <created>1543358247865</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1543358247865</updated>
+    </task>
+    <task id="LOCAL-00029" summary="27/11/2018 - 23h50">
+      <created>1543358289300</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1543358289300</updated>
+    </task>
+    <task id="LOCAL-00030" summary="28/11/2018 - 00h05 Update TODOs">
+      <created>1543359316163</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1543359316163</updated>
+    </task>
+    <task id="LOCAL-00031" summary="28/11/2018 - 09h30 Ajout font">
+      <created>1543395553882</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1543395553882</updated>
+    </task>
+    <task id="LOCAL-00032" summary="28/11/2018 - 11h00 css datatable">
+      <created>1543399378777</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1543399378777</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13275000" />
+    <option name="totallyTimeSpent" value="53019000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49733475" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.4989339" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.4978678" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4968017" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49626866" weight="0.32897604" />
       <window_info anchor="right" id="Remote Host" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27132195" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2739872" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info active="true" anchor="right" id="Database" order="0" visible="true" weight="0.32995737" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="1" weight="0.16897655" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12739871" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="TODO" order="11" sideWeight="0.6540512" visible="true" weight="0.3278867" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49413645" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.1119403" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.34594882" side_tool="true" visible="true" weight="0.3278867" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.49840087" weight="0.32570806" />
       <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4914712" weight="0.23965141" />
+      <window_info id="Favorites" order="0" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,27 +519,76 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pouet test" />
-    <option name="LAST_COMMIT_MESSAGE" value="pouet test" />
+    <MESSAGE value="Ppe gestion fal" />
+    <MESSAGE value="sql db avec trigger fonctionnel" />
+    <MESSAGE value="27/11/2018 - 23h50" />
+    <MESSAGE value="28/11/2018 - 00h05 Update TODOs" />
+    <MESSAGE value="28/11/2018 - 09h30 Ajout font" />
+    <MESSAGE value="28/11/2018 - 11h00 css datatable" />
+    <MESSAGE value="29/11/2018 09h50 -&gt; Changement pass pdo + php checks updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/11/2018 09h50 -&gt; Changement pass pdo + php checks updated" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index_croix.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+        <state relative-caret-position="810">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitment-register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="252">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_fal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_impetrant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_croix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitment-register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -280,7 +650,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php" />
     <entry file="file://$PROJECT_DIR$/login.php" />
-    <entry file="file://$PROJECT_DIR$/index_fal.html">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/font/Aller_rg.ttf" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6dc04fef-e08b-462e-8c55-77b82234774f/console.sql" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="970" column="20" selection-start-line="970" selection-start-column="20" selection-end-line="970" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6dc04fef-e08b-462e-8c55-77b82234774f/schema/gestionfal/table/role" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6dc04fef-e08b-462e-8c55-77b82234774f/console_1.sql" />
+    <entry file="das://6dc04fef-e08b-462e-8c55-77b82234774f/schema/gestionfal/table/membre" />
+    <entry file="das://6dc04fef-e08b-462e-8c55-77b82234774f/schema/gestionfal/table/user" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3808d483-f59d-496d-9c03-d62423f8427f/console.sql" />
+    <entry file="file://$PROJECT_DIR$/DB/Trigger.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://3808d483-f59d-496d-9c03-d62423f8427f/schema/gestionfal/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3808d483-f59d-496d-9c03-d62423f8427f/schema/gestionfal/table/membre">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/datatable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="85" column="60" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitment-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="91" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listeImpetrants_Croix.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="87" lean-forward="true" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liste_membres.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liste_chants.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codexMtp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitment-register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_wall.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
@@ -289,62 +797,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index_impetrant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="200">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_fal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_croix.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="320">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitment-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitment-register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f5ed7005-d047-4275-96d2-147e168d0ff9/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>

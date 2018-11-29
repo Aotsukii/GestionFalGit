@@ -1,3 +1,16 @@
+<?php
+	session_start();
+	if(isset($_SESSION['ID_USER']))
+	{
+	    if ($_SESSION['ID_ROLE']=="2"){
+	        header('location:index_fal.html);
+	        } elseif ($_SESSION['ID_ROLE']=="1"){
+	        header('location:index_croix.html);
+	        } elseif ($_SESSION['ID_ROLE']=="3"){
+	        header('location:index_impetrant.html);}
+	} else {
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,48 +21,16 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <a class="navbar-brand" href="./index.html">GestionFalMontpeul</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Disabled</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./login.html">Connexion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./register.html">Inscription</a>
-                </li>
-            </ul>
-            <input class="form-control mr-sm-2" type="search" placeholder="Recherche par surnom" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
-        </form>
-    </div>
-</nav>
 <br>
-<h1>Welcome !</h1>
+<h1>Réseau social faluche montpellieraine</h1>
 <br>
 <br>
-<p>Sleep on my human's head no, you can't close the door, i haven't decided whether or not i wanna go out meow meow, i tell my human. Need to chase tail give me some of your food give me some of your food give me some of your food meh, i don't want it and lay on arms while you're using the keyboard. My slave human didn't give me any food so i pooped on the floor destroy couch as revenge or lick butt and make a weird face your pillow is now my pet bed proudly present butt to human. Purr when being pet have secret plans. Slap owner's face at 5am until human fills food dish this cat happen now, it was too purr-fect!!!. Thug cat annoy the old grumpy cat, start a fight and then retreat to wash when i lose yet floof tum, tickle bum, jellybean footies curly toes. Cat snacks purrrrrr but you call this cat food or run outside as soon as door open. Ooh, are those your $250 dollar sandals? lemme use that as my litter box inspect anything brought into the house find empty spot in cupboard and sleep all day chase after silly colored fish toys around the house yet roll on the floor purring your whiskers off, man running from cops stops to pet cats, goes to jail.
+<p>Ebauche de "réseau social" pour la communauté étudiante falucharde, ayant pour but une meilleure mise à disposition de codes et d'événements, ainsi que le contact facile entre faluchards.
 </p>
 <button class="form-btn btn-index semibold"><a href="./register.html">Inscription</a></button>
 <br>
 <button class="form-btn btn-index semibold"><a href="./login.html">Connexion</a></button>
 </body>
 </html>
+
+<?php } ?>
