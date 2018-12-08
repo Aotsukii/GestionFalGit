@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     $tel = htmlspecialchars($_POST['tel']);
     $role = htmlspecialchars($_POST['optradio']);
     try {
-        $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
+        $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'root');
         $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch (Exception $e) {
         die('Erreur : ' . $e->getMessage());

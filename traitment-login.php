@@ -1,7 +1,7 @@
 <?php
 session_start();
 try {
-    $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
+    $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'root');
     $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
