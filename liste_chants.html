@@ -4,7 +4,7 @@
 	{
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -24,8 +24,8 @@
                 <a class="nav-link" href="javascript:history.go(-1)">Mon Profil<span class="sr-only">(current)</span></a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Recherche par surnom" aria-label="Search">
+        <form  class="form-inline my-2 my-lg-0 search" method="POST" action="search.php">
+            <input name="searchName" class="form-control mr-sm-2" type="search" placeholder="Recherche par surnom" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
         </form>
         <ul class="navbar-nav">

@@ -33,8 +33,8 @@ if(isset($_SESSION['ID_USER']))
                 <a class="nav-link" href="javascript:history.go(-1)">Mon Profil<span class="sr-only">(current)</span></a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Recherche par surnom" aria-label="Search">
+        <form class="form-inline my-2 my-lg-0 search" method="POST" action="search.php">
+            <input name="searchName" class="form-control mr-sm-2" type="search" placeholder="Recherche par surnom" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
         </form>
         <ul class="navbar-nav">
@@ -48,28 +48,27 @@ if(isset($_SESSION['ID_USER']))
     <thead>
     <tr>
         <th class="sorting">Surnom</th>
+        <th>Role</th>
         <th>Baptême</th>
         <th>Filière</th>
         <th>Ajouter</th>
     </tr>
     </thead>
     <tbody>
-<?php
-    $stmt=$connect->prepare("SELECT * FROM membre");
-    if ($stmt->execute()){
-        $result=$stmt->fetchAll();
-        foreach($result AS $membre){
-//            echo("Surnom : ".$membre['SURNOM_USER']."__________ Dâte de baptême : ".$membre['DATEBAPT_USER']."________Filière : ".$membre['ID_FILIERE']."<br>");
-?>
-        <?php echo("<tr><td>".$membre['SURNOM_USER']."</td>"); ?>
-        <?php echo("<td>".$membre['DATEBAPT_USER']."</td>"); ?>
-        <?php echo("<td>".$membre['ID_FILIERE']."</td>");
-        echo("<td><button href='#'>Ajouter</button></tr>");
-    }
-    }
+    <?php
+        $stmt=$connect->prepare("SELECT * FROM membre,filiere,role WHERE membre.id_filiere=filiere.ID_FILIERE AND membre.ID_ROLE=role.ID_ROLE");
+        if ($stmt->execute()){
+            $result=$stmt->fetchAll();
+            foreach($result AS $membre){
+                echo("<tr><td>".$membre['SURNOM_USER']."</td>");
+                echo("<td>".$membre['LIB_ROLE']."</td>");
+                echo("<td>".$membre['DATEBAPT_USER']."</td>");
+                echo("<td>".$membre['LIB_FILIERE']."</td>");
+                echo("<td><button href='#'>Ajouter</button></td></tr>");
+            }
+        }
     ?>
     </tbody>
-    </tfoot>
 </table>
 </body>
 </html>

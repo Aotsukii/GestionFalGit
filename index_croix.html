@@ -41,8 +41,8 @@
                 <a class="nav-link" href="events.html">Events à venir</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Recherche par surnom" aria-label="Search">
+        <form class="form-inline my-2 my-lg-0 search" METHOD="POST" action="search.php">
+            <input name="searchName" id="searchName" class="form-control mr-sm-2" type="search" placeholder="Recherche par surnom" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button>
         </form>
             <ul class="navbar-nav">

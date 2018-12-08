@@ -1,16 +1,17 @@
 <?php
-session_start();
-try
-{
-    $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
-}
-catch (Exception $e)
-{
-    die('Erreur : ' . $e->getMessage());
-}
-if(isset($_SESSION['ID_USER']))
-{?>
-<!DOCTYPE html>
+    session_start();
+    try
+    {
+        $connect = new PDO('mysql:host=localhost;dbname=GestionFal;charset=utf8', 'root', 'password');
+    }
+    catch (Exception $e)
+    {
+        die('Erreur : ' . $e->getMessage());
+    }
+    $searchName = htmlspecialchars($_POST['searchName']);
+    if(isset($_SESSION['ID_USER']))
+    {
+?>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +22,6 @@ if(isset($_SESSION['ID_USER']))
     <link rel="stylesheet" href="css/datatable.css">
 </head>
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
     <a class="navbar-brand" href="./index.html">GestionFalMontpeul</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,30 +49,32 @@ if(isset($_SESSION['ID_USER']))
     <tr>
         <th class="sorting">Surnom</th>
         <th>Filière</th>
-        <th>Est prêt ?</th>
+        <th>Rôle</th>
+        <th>Prénom</th>
+        <th>Nom</th>
         <th>Ajouter</th>
     </tr>
     </thead>
     <tbody>
     <?php
-    $stmt=$connect->prepare("SELECT * FROM membre,filiere WHERE ID_ROLE='3' AND membre.id_filiere=filiere.ID_FILIERE");
-    if ($stmt->execute()){
-    $result=$stmt->fetchAll();
-    foreach($result AS $membre){
-    //            echo("Surnom : ".$membre['SURNOM_USER']."__________ Dâte de baptême : ".$membre['DATEBAPT_USER']."________Filière : ".$membre['ID_FILIERE']."<br>");
+        $stmt=$connect->prepare("SELECT * FROM membre,filiere,role WHERE SURNOM_USER = '$searchName' AND membre.id_filiere=filiere.id_filiere AND membre.ID_ROLE=role.ID_ROLE");
+        if ($stmt->execute()){
+            $result=$stmt->fetchAll();
+            foreach($result AS $membre){
+                echo("<tr><td>".$membre['SURNOM_USER']."</td>");
+                echo("<td>".$membre['LIB_FILIERE']."</td>");
+                echo("<td>".$membre['LIB_ROLE']."</td>");
+                echo("<td>".$membre['PRENOM_USER']."</td>");
+                echo("<td>".$membre['NOM_USER']."</td>");
+                echo("<td><button href='#'>Ajouter</button></td></tr>");
+            }
+        }
     ?>
-    <?php echo("<tr><td>".$membre['SURNOM_USER']."</td>"); ?>
-    <?php echo("<td>".$membre['LIB_FILIERE']."</td>");
-        echo("<td><input type='checkbox'></td>");
-        echo("<td><button href='#'>Ajouter</button></tr>");
-        }
-        }
-        ?>
     </tbody>
 </table>
-<!--
+
 </body>
 </html>
 <?php
-	} else { header('location:index.html?error=Vous n\'avez pas accès à cette page');}
+} else { header('location:index.html?error=Vous n\'avez pas accès à cette page');}
 ?>
