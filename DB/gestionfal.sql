@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 28, 2018 at 10:34 AM
+-- Generation Time: Dec 08, 2018 at 03:13 PM
 -- Server version: 5.6.34-log
 -- PHP Version: 7.2.1
 
@@ -41,7 +41,7 @@ INSERT INTO `filiere` (`ID_FILIERE`, `LIB_FILIERE`) VALUES
 (1, 'Sciences'),
 (2, 'Droit'),
 (3, 'Pharmacie'),
-(4, 'SageFemme'),
+(4, 'Sage-Femme'),
 (5, 'Lettres'),
 (6, 'Medecine'),
 (7, 'Dentaire'),
