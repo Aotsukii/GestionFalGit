@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b62dc7-2094-4ddd-9221-46637cf8b4d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/traitment-search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codexMtp.html" beforeDir="false" afterPath="$PROJECT_DIR$/codexMtp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disconnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/disconnect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_croix.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_croix.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_fal.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_fal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_impetrant.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_impetrant.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listeImpetrants_Croix.php" beforeDir="false" afterPath="$PROJECT_DIR$/listeImpetrants_Croix.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liste_chants.html" beforeDir="false" afterPath="$PROJECT_DIR$/liste_chants.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liste_membres.php" beforeDir="false" afterPath="$PROJECT_DIR$/liste_membres.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/traitment-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/traitment-register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,8 +60,8 @@
       <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="694">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -277,7 +262,7 @@
       <workItem from="1543395152031" duration="5704000" />
       <workItem from="1543433680275" duration="84000" />
       <workItem from="1544177480135" duration="1169000" />
-      <workItem from="1544275496328" duration="6077000" />
+      <workItem from="1544275496328" duration="6083000" />
     </task>
     <task id="LOCAL-00001" summary="pouet test">
       <created>1542454157994</created>
@@ -524,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543401324480</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="08/12/18 16h05 - Ajout fonctionnalité recherche par surnom">
+      <created>1544281580880</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1544281580880</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58546000" />
+    <option name="totallyTimeSpent" value="58552000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -913,8 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="694">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
